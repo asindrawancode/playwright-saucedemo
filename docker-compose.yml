@@ -1,0 +1,15 @@
+# docker-compose.yml
+
+version: '3.8'
+services:
+  tests:
+    build: .
+    environment:
+      - BASE_URL=${BASE_URL}
+      - USERNAME=${USERNAME}
+      - PASSWORD=${PASSWORD}
+      - BROWSER=${BROWSER}
+      - HEADLESS=${HEADLESS}
+    volumes:
+      - .:/app
+    command: npx playwright test
