@@ -35,7 +35,13 @@ This project is an automated testing suite using [Playwright](https://playwright
    npm install
    ```
 
-3. **Install Playwright browsers:**
+3**Set Environment Variables:**
+
+   ```bash
+   cp envs/.env.staging .env
+   ```
+
+4**Install Playwright browsers:**
 
    ```bash
    npx playwright install
@@ -56,6 +62,7 @@ repository-name/
 ├── playwright.config.js     # Playwright configuration
 ├── package.json
 └── README.md                # Documentation
+
 ```
 
 ## Running Tests
@@ -136,13 +143,13 @@ This project uses the [Allure Playwright](https://github.com/allure-framework/al
 2. **Generate report:**
 
    ```bash
-   allure generate allure-results --clean -o allure-report
+   npx allure generate allure-results --clean -o allure-report
    ```
 
 3. **Open report:**
 
    ```bash
-   allure open allure-report
+   npx allure open allure-report
    ```
 
 ## Additional Resources

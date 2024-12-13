@@ -23,6 +23,6 @@ test.describe('Checkout Process Tests', () => {
         await checkoutPage.finishCheckout();
 
         // Verify order completion
-        await expect(page.locator(checkoutPage.orderConfirmationText)).toHaveText('Thank you for your order!!');
+        await expect(page.locator(checkoutPage.orderConfirmationText)).toHaveText('Thank you for your order!');
     });
 });
