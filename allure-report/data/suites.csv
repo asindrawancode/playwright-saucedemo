@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","2841","Logout and verify redirect to login page","","Fri Dec 13 22:55:52 WIB 2024","passed","Fri Dec 13 22:55:55 WIB 2024","","tests/logout.spec.js","",""
-"","2122","should complete checkout successfully","","Fri Dec 13 22:55:52 WIB 2024","passed","Fri Dec 13 22:55:54 WIB 2024","Checkout Process Tests","tests/checkout.spec.js","",""
-"","2368","should login successfully with valid credentials","","Fri Dec 13 22:55:52 WIB 2024","passed","Fri Dec 13 22:55:54 WIB 2024","Login Tests","tests/login.spec.js","",""
-"","2252","should add first product to cart successfully","","Fri Dec 13 22:55:52 WIB 2024","passed","Fri Dec 13 22:55:54 WIB 2024","Product Cart Tests","tests/add-to-cart.spec.js","",""
-"","2597","should complete a complex shopping scenario successfully","","Fri Dec 13 22:55:52 WIB 2024","passed","Fri Dec 13 22:55:54 WIB 2024","Advanced Shopping Workflow","tests/advanced-shopping.spec.js","",""
