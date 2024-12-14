@@ -85,6 +85,24 @@ npx playwright test --grep @smoke
 npx playwright test tests/example.spec.js
 ```
 
+### How to run login scenario:
+
+   ```bash
+   npx playwright test tests/login.spec.js
+   ```
+
+### How to run Select items (2 items, 3 items, & 4 items):
+
+   ```bash
+   npx playwright test tests/add-to-cart.spec.js
+   ```
+
+### How to run full-flow script (Login -> select items using random function -> go to “cart” -> remove an item -> checkout -> fill the form -> click the “Continue” button -> click the “Finish” button):
+
+   ```bash
+   npx playwright test tests/checkout.spec.js
+   ```
+
 ### Debug mode:
 
 ```bash
@@ -134,19 +152,13 @@ This project uses the [Allure Playwright](https://github.com/allure-framework/al
 
 ### Generate and view Allure reports:
 
-1. **Run tests to collect results:**
-
-   ```bash
-   npx playwright test
-   ```
-
-2. **Generate report:**
+1. **Generate report:**
 
    ```bash
    npx allure generate allure-results --clean -o allure-report
    ```
 
-3. **Open report:**
+2. **Open report:**
 
    ```bash
    npx allure open allure-report
